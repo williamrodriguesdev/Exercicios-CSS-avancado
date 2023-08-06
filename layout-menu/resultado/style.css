@@ -1,0 +1,45 @@
+
+body {
+    width: 1421px;
+    margin: auto;
+    
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    
+}
+
+
+nav a{
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 20px;
+}
+nav a:hover {
+    background-color: rgb(8, 202, 8);
+    padding: 10px;
+    color: white;
+
+}
+.cadastro {
+    background-color: rgb(8, 202, 8);
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+}
+.cadastro:hover {
+    padding: 10px 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    gap: 30px;
+}
