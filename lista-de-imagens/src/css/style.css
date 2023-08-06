@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+body {
+    height: 100vh; 
+    font-family: 'Public Sans', sans-serif;
+}
+
+main.container-pinturas {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pintura {
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    bottom: 43px;
+    left: 26px;
+    color: white;
+    line-height: 0;
+    
+}
+.obra {
+    font-weight: 700;
+    font-size: 30px;
+}
+.artista {
+    font-weight: 300;
+    font-size: 17px;
+}
